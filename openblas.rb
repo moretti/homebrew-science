@@ -12,8 +12,8 @@ class Openblas < Formula
   homepage 'http://xianyi.github.io/OpenBLAS/'
   # Maintainers, remember to update the LAPACK url in OpenblasLapack above.
   # See the "LAPACK_URL" in the openblas Makefile for the right version.
-  url 'https://github.com/xianyi/OpenBLAS/archive/v0.2.6.tar.gz'
-  sha1 'f5c040660cb83630f9ac3e34a907889dcfac3415'
+  url 'https://github.com/xianyi/OpenBLAS/archive/v0.2.7.tar.gz'
+  sha1 '9597ffed953c3d7be022e3080532b7d8fecd499e'
   head "https://github.com/xianyi/OpenBLAS.git", :branch => "develop"
 
   depends_on :fortran
