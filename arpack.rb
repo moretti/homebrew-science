@@ -7,7 +7,7 @@ class Arpack < Formula
   sha1 'c1ac96663916a4e11618e9557636ba1bd1a7b556'
 
   depends_on 'open-mpi'
-  depends_on 'moretti/homebrew-science/openblas'
+  depends_on 'moretti/science/openblas'
 
   keg_only "Conflicts with arpack"
 
