@@ -16,6 +16,8 @@ class Openblas < Formula
   sha1 '9597ffed953c3d7be022e3080532b7d8fecd499e'
   head "https://github.com/xianyi/OpenBLAS.git", :branch => "develop"
 
+  env :std
+
   depends_on 'gfortran'
   depends_on :fortran
 
